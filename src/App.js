@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/portfolio-main/">
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -37,7 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<Navigate to="/portfolio-main/"/>} />
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
       </div>
