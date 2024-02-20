@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.695871a9.css",
-    "main.js": "/static/js/main.1561e10b.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/minigame.png": "/static/media/minigame.571bbab4829190933af9.png",
-    "static/media/npmtiger.png": "/static/media/npmtiger.dcd479096935c67bb0ee.png",
-    "static/media/kings.png": "/static/media/kings.4e8e3b026bfa6bcdbfcf.png",
-    "static/media/synonymous.png": "/static/media/synonymous.eabfc16e7a146ab15778.png",
-    "static/media/barras-app.png": "/static/media/barras-app.c0fd80f51b78821b1a53.png",
-    "static/media/web3.png": "/static/media/web3.fb8ab7f271a937d5fc01.png",
-    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avataaars.svg": "/static/media/avataaars.bff80db4c86b03e991558ce5aeacf96e.svg",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/index.html",
-    "main.695871a9.css.map": "/static/css/main.695871a9.css.map",
-    "main.1561e10b.js.map": "/static/js/main.1561e10b.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio-main/static/css/main.7d8857bd.css",
+    "main.js": "/portfolio-main/static/js/main.fec4a5e7.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio-main/static/js/453.1407b060.chunk.js",
+    "static/media/minigame.png": "/portfolio-main/static/media/minigame.571bbab4829190933af9.png",
+    "static/media/npmtiger.png": "/portfolio-main/static/media/npmtiger.dcd479096935c67bb0ee.png",
+    "static/media/kings.png": "/portfolio-main/static/media/kings.4e8e3b026bfa6bcdbfcf.png",
+    "static/media/synonymous.png": "/portfolio-main/static/media/synonymous.eabfc16e7a146ab15778.png",
+    "static/media/barras-app.png": "/portfolio-main/static/media/barras-app.c0fd80f51b78821b1a53.png",
+    "static/media/web3.png": "/portfolio-main/static/media/web3.fb8ab7f271a937d5fc01.png",
+    "static/media/home-main.svg": "/portfolio-main/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/portfolio-main/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/portfolio-main/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avataaars.svg": "/portfolio-main/static/media/avataaars.bff80db4c86b03e991558ce5aeacf96e.svg",
+    "static/media/pre.svg": "/portfolio-main/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio-main/index.html",
+    "main.7d8857bd.css.map": "/portfolio-main/static/css/main.7d8857bd.css.map",
+    "main.fec4a5e7.js.map": "/portfolio-main/static/js/main.fec4a5e7.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio-main/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.695871a9.css",
-    "static/js/main.1561e10b.js"
+    "static/css/main.7d8857bd.css",
+    "static/js/main.fec4a5e7.js"
   ]
 }
