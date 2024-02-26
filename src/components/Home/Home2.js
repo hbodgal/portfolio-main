@@ -14,37 +14,38 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <br />
-            <br />
+            {/* <br /> */}
+            {/* <br /> */}
             <p className="home-about-body">
+              Hi! I am <b className="purple">Harsh</b>. Well, that's just my name! I am quite the opposite. Ironically, my name means <b className="purple">Hapiness</b> in Sanskrit!<br /><br />
+              {/* Hi I am <b className="purple">Harsh</b>. That's just my name! Ironicolly my name means Hapiness in Sanskrit!<br /><br /> */}
               I am a <b className="purple">Full Stack developer </b> who
               specializes in <b className="purple">frontend</b> development, who
-              likes to craft solid and scalable frontend products with great
-              user experience.
-              <br />
-              <br />
-              I wield the power of{" "}
+              likes to craft solid and scalable products with great user
+              experience. I wield the power of{" "}
               <b className="purple">
-                Typescript, React.js, Java, Css, Git, Jest
+                Typescript, React.js, Express, Css, Git, Jest
               </b>{" "}
-              and more with ease. I approach my work with a relaxed and natural
-              style, always striving for excellence.
+              and more with ease.
               <br />
-              <br />I am passionate about <b className="purple">optimization and problem solving. </b>
-              {/* projects on GitHub one of them have become
+              <br />I approach my work with a relaxed and natural style, always
+              striving for excellence. I am passionate about{" "}
+              <b className="purple">optimization and problem solving. </b>
+              I take pride in delivering simple (precise) solutions.
+              <br />
+             <br />I love being creative and adding that extra flair to every
+              task. It's such a great feeling when someone out there is using a
+              feature I put together, using my smarts and skills.  {/* Tech and
+              coding just pull me in. */}
+              <br />
+              {/* When I'm not coding, you can find me at the beach&nbsp;
               <i>
-                <b className="purple"> trending globally repository</b>.
-              </i> */}
-              &nbsp;I take pride in delivering simple (precise) solutions and my exceptional skill is to quickly pick up new tech/environment.
-              <br />
-              <br />
-              When I'm not coding, you can find me at the beach&nbsp;
-              <i>
-                <b className="purple">or traveling the
+                <b className="purple">or traveling thI love being creative and adding that extra flair to every task. It's such a great feeling when someone out there is using a feature I put together, using my smarts and skills. Let me boast a bit about my skills! Tech and coding just pull me in.
+e
                 world</b> in search of new adventures. Or, if the weather isn't
                 cooperating, you might find me curled up on the couch listening to
                 songs or<b className="purple"> watching movies</b>.
-              </i>
+              </i> */}
               <br />
               {/* <br />I have also developed my own{" "}
               <b className="purple">npm package</b> for a minimalist routing
@@ -57,7 +58,7 @@ function Home2() {
                 style={{ color: "black", textDecoration: "none" }}
                 className="purple"
               > */}
-                {/* tiger-router */}
+              {/* tiger-router */}
               {/* </a> */}
             </p>
           </Col>

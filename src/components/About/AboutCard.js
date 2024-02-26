@@ -6,31 +6,42 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            I am <span className="purple">Harsh </span>
-            originally from
-            <span className="purple"> India </span>
-            currently living in
-            <span className="purple"> Fullerton, CA </span>.
-            <br />
-            <br />
-            When I'm not busy scribbling code, I like to keep things interesting
-            by indulging in IMDB top rated movies or series. I also like to meet new people and explore cusines through dining out or whipping up something exciting in my own kitchen. 
+          <p style={{ textAlign: "justify" }}>I am naturally inclined to take <span className="purple"> initiatives and embrace challenges </span>
+            that others might shy away from. Much like an explorer venturing
+            into uncharted territories, I find excitement in trying new things
+            and <span className="purple">pushing boundaries</span>. Similar to a skilled artisan creating a
+            masterpiece, I enjoy producing work that I can proudly show off.{" "}
+            <br /><br />
+            My <span className="purple">confidence</span> in expressing opinions is coupled with a genuine
+            openness to suggestions and alternative viewpoints. Whether sharing
+            insights with seniors or asking seemingly 'silly' questions, I
+            embrace the exchange of ideas as a pathway to growth.
+            <br /><br />
           </p>
           <h3 style={{ paddingBottom: "20px", paddingTop: "20px" }}>
             More about <strong className="purple">Me </strong> 👀
           </h3>
           <p style={{ textAlign: "justify" }}>
-            I am creative person who likes to keep on creating something new. I feel amazing when someone 
-            somewhere is using a feature which I created and optimized with my intelligence and skills. (Let me Flaunt my skills!)
-            I find myself drawn to technology and coding.<br/><br/>
-            
+            I am originally from
+            <span className="purple"> India </span>
+            currently living in
+            <span className="purple"> Fullerton, CA</span>.
             My latest
             <span className="purple"> education</span> is in
-            <span className="purple"> Computer Science</span> from California State University Fullerton. 
-            I have gained<span className="purple"> four years of experience</span> creating end to end features from concept to deployment.
-            And I have taught bunch of Senior year kids at CSUF, C++ and Web backend using Python for a year. 
-            
+            <span className="purple"> Computer Science</span> from California
+            State University Fullerton. I have{" "}
+            <span className="purple"> four years of experience</span> creating
+            end to end features from concept to deployment. Leveraging my
+            experience, I have taught{" "}
+            <span className="purple">Web Backend</span> to Senior year students
+            at CSUF using Python, for a year.
+            <br /><br />
+            When I'm not busy scribbling code, I keep things interesting by
+            either indulging in movies or exploring cusines
+            through dining out or whipping up something exciting in my own
+            kitchen. I also like to excersice regularly. Well, I continued that 'cause
+            no way I'm shedding all that sweat again which brought me to this
+            point.
             {/* Stack Web Development <span className="purple"> Bootcamp</span>.
             After graduate, I have gained
             <span className="purple"> one and a half years </span>
