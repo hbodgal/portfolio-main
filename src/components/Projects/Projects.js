@@ -2,9 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import streetsmart from "../../Assets/Projects/streetsmart.png";
-import synonymous from "../../Assets/Projects/synonymous.png";
-import minigame from "../../Assets/Projects/minigame.png";
-import kings from "../../Assets/Projects/kings.png";
 import titanbuddy from "../../Assets/Projects/titanbuddy.jpeg";
 import csufmap from "../../Assets/Projects/csufmap.png";
 
