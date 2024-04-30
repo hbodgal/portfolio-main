@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineUser,
+  AiFillGithub,
+  AiOutlineFundProjectionScreen
 } from "react-icons/ai";
 
 
@@ -59,7 +62,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -73,13 +76,13 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Fasping"
+                href="https://github.com/hbodgal"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <AiFillGithub style={{ fontSize: "1.6em" }} />
               </Button>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

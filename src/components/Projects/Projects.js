@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import charts from "../../Assets/Projects/barras-app.png";
+import streetsmart from "../../Assets/Projects/streetsmart.png";
 import synonymous from "../../Assets/Projects/synonymous.png";
 import minigame from "../../Assets/Projects/minigame.png";
 import kings from "../../Assets/Projects/kings.png";
-import web3 from "../../Assets/Projects/web3.png";
-import npmtiger from "../../Assets/Projects/npmtiger.png";
+import titanbuddy from "../../Assets/Projects/titanbuddy.jpeg";
+import csufmap from "../../Assets/Projects/csufmap.png";
 
 function Projects() {
   return (
@@ -19,68 +19,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={web3}
+              imgPath={titanbuddy}
               isBlog={false}
-              title="Modern Web 3.0 Blockchain"
-              description="Web 3.0 application that has the potential to change the internet as we know it. I utilized advanced technologies such as React JS and Tailwind CSS to create a cutting-edge, functional, and stylish application. In addition to these technologies, I also utilized other skills related to Web 3.0 to create an application that is truly groundbreaking."
-              ghLink="https://github.https://github.com/Fasping/Modern-Web-3.0-Blockchain-App/soumyajit4419/Bits-0f-C0de"
+              title="Titan Buddy"
+              description="
+              Titan Buddy is All-In-One solution to increase student collaboration and engagement on CSUF Campus. The app revolutionizes the student journey by providing a social chat feature for peer connections, real-time event listings for staying updated, integrated CSUF Maps for seamless campus exploration, and push notifications for instant alerts, enhancing the overall campus experience. THis app is built using React Native and Nest JS."
+              ghLink="https://github.com/hbodgal/titanBuddy"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={npmtiger}
+              imgPath={csufmap}
               isBlog={false}
-              title="Tiger Router 
-              ( Routing solution )"
-              description="Tiger Router offers only the essentials for seamless navigation within your React application. With its intuitive and user-friendly interface, you can easily define your routes and render your components with just a few lines of code. Tiger Router includes Router, Route, and Link components, making it a comprehensive solution for all your routing needs.
-
-              Is available as an NPM package, making it easy for developers to install and integrate into their React projects."
-              ghLink="https://github.com/Fasping/tiger-router"
-              demoLink="https://www.npmjs.com/package/tiger-router"
+              title="CSUF Map (PWA)"
+              description="React-powered CSUF Map Progressive Web Application is a game-changer, marking 100+ spots on campus with Leaflet’s slick mapping. Easy building searches, even offline! PWAs rock with their app-like feel, lightning-fast loads, and cross-device magic. Leaflet’s customization makes navigating a breeze. It’s all about giving CSUF a smooth, cool, and user-friendly map experience for everyone, from students to faculty to visitors—no fuss, just fun exploration!"
+              ghLink="https://github.com/hbodgal/CSUF-Maps"
+              demoLink="https://hbodgal.github.io/CSUF-Maps/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={charts}
+              imgPath={streetsmart}
               isBlog={false}
-              title="Display Data in Chart App"
-              description="This is a kickass web app that compares player stats using super sleek bar charts. The app includes smooth animations when loading the bars and buttons that let you switch between different time ranges (7 days, 30 days, 90 days, 180 days). It's built using React.js, Vite.js, and Styled Components, so you know it's top quality. Go ahead and give it a try!."
-              ghLink="https://github.com/Fasping/Chart_PLAYERS"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={synonymous}
-              isBlog={false}
-              title="Word Finding Synonyms"
-              description="Need some synonym inspiration? Let React JS be your wingman! This simple search engine is like a personal thesaurus that fetches synonyms for any word you enter, using the https://www.datamuse.com/api/. Never be stuck for a word again and impress your friends, colleagues and family with your vast vocabulary using this handy tool!"
-              ghLink="https://github.com/Fasping/word-finding-synonymous"
-              demoLink="https://word-finding-synonymous.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kings}
-              isBlog={false}
-              title="OpenSource Collaboration"
-              description="The Kings League Infojobs API was a popular GLOBAL TRENDING repository OpenSource on GitHub that provided access to data about teams, players, and coaches in the league through an API. The web page also offered information about the results, and rankings... I have the opportunity to be contributor to the project by writing tests, creating documentation, and working on the front-end side."
-              ghLink="https://github.com/midudev/kings-league-project"
-              demoLink="https://kingsleague.dev/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={minigame}
-              isBlog={false}
-              title="JavaScript MiniGame"
-              description="This was my first project of 2021 for my TechSchool and I'm thrilled to include it in my portfolio. It's a testament to my skills as a JavaScript developer and a great reminder of the good old days when all you needed was a browser and some code to have a good time. So go ahead, give it a try and see if you have what it takes to win"
-              ghLink="https://github.com/Fasping/ProjectOneIronHack"
-              demoLink="https://project-one-iron-hack.vercel.app//"
+              title="Street Smart"
+              description="This cool app is powered by Chat GPT APIs to suggest location based on precisely qurated prompts, developed during TitanHacks 2023 (24Hrs coding challenge at CSUF), not only notifies users about nearby must-visit places but also uses cutting-edge live tracking and real-time notifications. When users venture beyond a 5-mile radius from their last location, ChatGPT API kicks in with preset prompts, guiding them to hidden gems nearby. It’s like having a personal tour guide right in your pocket, making every journey an adventure!"
+              ghLink="https://github.com/hbodgal/streetSmart"
             />
           </Col>
         </Row>
