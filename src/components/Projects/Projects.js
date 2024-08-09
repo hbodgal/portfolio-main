@@ -4,7 +4,9 @@ import ProjectCard from "./ProjectCards";
 import streetsmart from "../../Assets/Projects/streetsmart.png";
 import titanbuddy from "../../Assets/Projects/titanbuddy.jpeg";
 import csufmap from "../../Assets/Projects/csufmap.png";
-
+import eventocity from "../../Assets/Projects/eventocity.png"
+import postathought from "../../Assets/Projects/postathought.png"
+import ticketingapp from "../../Assets/Projects/ticketingApp.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -12,7 +14,40 @@ function Projects() {
         <h1 className="project-heading">
           Some <strong className="purple">Works </strong>
         </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ticketingapp}
+              isBlog={false}
+              title="Ticketing App"
+              description="
+              Engineered a full-stack Next.js web app to purchase tickets in real time, have server-side components for fast processing. Built on Microservices, utilizing NATS and Google Cloud, handles concurrency issues, payment issues, uses worker service.
+"
+              ghLink="https://github.com/hbodgal/ticketing-app"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={postathought}
+              isBlog={false}
+              title="PostAThought"
+              description="PostAThought is a social app built using React.js with ability to post text content, comment, and content moderation. This project implements a microservices architecture using Node.js and Express, orchestrated with Kubernetes (K8s) and managed with Skaffold. It utilizes an event-driven approach for communication between services."
+              ghLink="https://github.com/hbodgal/Post-a-thought"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eventocity}
+              isBlog={false}
+              title="EventOCity"
+              description="A content website to view all the events of the city at one place. Buit using Next.js, Postgres with Prisma and Tailwind CSS. This app utilizes next.js features like Suspense, Skeleton, fetch memoization etc."
+              ghLink="https://github.com/hbodgal/eventocity"
+              demoLink="https://eventocity.vercel.app/"
+            />
+          </Col>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
