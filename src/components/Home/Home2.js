@@ -19,12 +19,11 @@ function Home2() {
             <p className="home-about-body">
               Hi! I am <b className="purple">Harsh</b>. Well, that's just my name! I am quite the opposite. Ironically, my name means <b className="purple">Happiness</b> in Sanskrit!<br /><br />
               {/* Hi I am <b className="purple">Harsh</b>. That's just my name! Ironicolly my name means Hapiness in Sanskrit!<br /><br /> */}
-              I am a <b className="purple">Full Stack developer </b> who
-              specializes in <b className="purple">frontend</b> development, who
+              I am a <b className="purple">Full Stack developer </b>, who
               likes to craft solid and scalable products with great user
               experience. I wield the power of{" "}
               <b className="purple">
-                Typescript, React.js, Express, Css, Git, Jest
+                Typescript, Next.js, React.js, Express, Css, Git, Jest
               </b>{" "}
               and more with ease.
               <br />

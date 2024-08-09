@@ -7,10 +7,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>I am naturally inclined to take <span className="purple"> initiatives and embrace challenges </span>
-            that others might shy away from. Much like an explorer venturing
-            into uncharted territories, I find excitement in trying new things
-            and <span className="purple">pushing boundaries</span>. Similar to a skilled artisan creating a
-            masterpiece, I enjoy producing work that I can proudly show off.{" "}
+            that others might shy away from. I find excitement in trying new things
+            and <span className="purple">pushing boundaries</span>. I enjoy producing work that I can proudly show off.{" "}
             <br /><br />
             My <span className="purple">confidence</span> in expressing opinions is coupled with a genuine
             openness to suggestions and alternative viewpoints. Whether sharing
@@ -39,9 +37,7 @@ function AboutCard() {
             When I'm not busy scribbling code, I keep things interesting by
             either indulging in movies or exploring cusines
             through dining out or whipping up something exciting in my own
-            kitchen. I also like to excersice regularly. Well, I continued that 'cause
-            no way I'm shedding all that sweat again which brought me to this
-            point.
+            kitchen.
             {/* Stack Web Development <span className="purple"> Bootcamp</span>.
             After graduate, I have gained
             <span className="purple"> one and a half years </span>
