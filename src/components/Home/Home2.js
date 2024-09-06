@@ -11,9 +11,9 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            {/* <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+            </h1> */}
             {/* <br /> */}
             {/* <br /> */}
             <p className="home-about-body">
@@ -29,7 +29,7 @@ function Home2() {
               <br />
               <br />I approach my work with a relaxed and natural style, always
               striving for excellence. I am passionate about{" "}
-              <b className="purple">optimization and problem solving. </b>
+              <b className="purple">solving ideas. </b>
               I take pride in delivering simple (precise) solutions.
               <br />
              <br />I love being creative and adding that extra flair to every

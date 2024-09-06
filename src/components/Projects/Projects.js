@@ -9,6 +9,7 @@ import postathought from "../../Assets/Projects/postathought.png"
 import ticketingapp from "../../Assets/Projects/ticketingApp.png"
 import word_analytics from "../../Assets/Projects/Word_Analytics.png"
 import taskbag from "../../Assets/Projects/Taskbag.png"
+import streamerpro from "../../Assets/Projects/streamerpro.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -29,6 +30,18 @@ function Projects() {
               ghLink="https://github.com/hbodgal/ticketing-app"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={streamerpro}
+              isBlog={false}
+              title="Streamer Pro"
+              description="
+              Built a live streaming platform to stream, share content and chat with the community. Utilized real-time communicatio, server side computation and Google authenctication to give users seemless experience."
+              Technologies="Next.js, Tailwind CSS, Supabase, Google Cloud Platform, OAuth, Resend"
+              aim="Build end-to-end app using web sockets, server-side events, and google authentication."
+              ghLink="https://github.com/hbodgal/streamerpro"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -41,8 +54,9 @@ function Projects() {
               ghLink="https://github.com/hbodgal/Post-a-thought"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={eventocity}
               isBlog={false}
@@ -54,8 +68,6 @@ function Projects() {
               demoLink="https://eventocity.vercel.app/"
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskbag}
@@ -80,7 +92,8 @@ function Projects() {
               ghLink="https://github.com/hbodgal/titanBuddy"
             />
           </Col>
-
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={csufmap}
@@ -93,10 +106,6 @@ function Projects() {
               demoLink="https://hbodgal.github.io/CSUF-Maps/"
             />
           </Col>
-
-          
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={word_analytics}
