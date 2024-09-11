@@ -15,7 +15,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Some <strong className="purple">Works </strong>
+          <strong className="purple">Top 6 </strong> Projects
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Ticketing App"
               description="
-              Full-stack Next.js web app for real-time ticket purchasing with microservices, server-side processing, and worker services. Integrated Payment gateway and handles concurrency issues, payment issues and error handling complexities."
+              Full-stack Next.js web app to trade event's tickets online. Built with microservices, server-side processing, and worker services to handle large number of concurrant users. Integrated Payment service to support secure transactions."
               Technologies="Next.js, Express.js, NATS, Google Cloud Platform, Worker Services, Stripe, Kubernetes, Docker"
               aim="Understand microservices and challanges in depth."
               ghLink="https://github.com/hbodgal/ticketing-app"
@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="Streamer Pro"
               description="
-              Built a live streaming platform to stream, share content and chat with the community. Utilized real-time communicatio, server side computation and Google authenctication to give users seemless experience."
+              Built a platform to stream live, share content and chat with the community. Utilized real-time communication, server side computation and Google authenctication to give users seemless experience."
               Technologies="Next.js, Tailwind CSS, Supabase, Google Cloud Platform, OAuth, Resend"
               aim="Build end-to-end app using web sockets, server-side events, and google authentication."
               ghLink="https://github.com/hbodgal/streamerpro"
@@ -56,7 +56,7 @@ function Projects() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                  <Col md={4} className="project-card">
+                  {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={eventocity}
               isBlog={false}
@@ -67,7 +67,7 @@ function Projects() {
               ghLink="https://github.com/hbodgal/eventocity"
               demoLink="https://eventocity.vercel.app/"
             />
-          </Col>
+          </Col> */}
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskbag}
@@ -92,33 +92,6 @@ function Projects() {
               ghLink="https://github.com/hbodgal/titanBuddy"
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={csufmap}
-              isBlog={false}
-              title="CSUF Map (PWA)"
-              description="CSUF Map, a Progressive Web Application is a game-changer, marking 100+ spots on campus with Leaflet’s slick mapping. Easy building searches, even offline. It’s all about giving CSUF a smooth, cool, and user-friendly map experience for everyone, from students to faculty to visitors—no fuss, just fun exploration!"
-              Technologies="React, Leaflet, Github Pages"
-              aim="Created for personal use"
-              ghLink="https://github.com/hbodgal/CSUF-Maps"
-              demoLink="https://hbodgal.github.io/CSUF-Maps/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={word_analytics}
-              isBlog={false}
-              title="Word Analytics"
-              description="This app provides insights into text by counting words, characters and shows allowed limits for popular social media platforms. This app is created using React Vite and uses Prettier for code formatting."
-              Technologies="React, CSS, Prettier, Github Pages"
-              aim="Created for personal use"
-              ghLink="https://github.com/hbodgal/word-analytics/"
-              demoLink="https://hbodgal.github.io/word-analytics/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={streetsmart}
@@ -130,6 +103,32 @@ function Projects() {
               ghLink="https://github.com/hbodgal/streetSmart"
             />
           </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={csufmap}
+              isBlog={false}
+              title="CSUF Map (PWA)"
+              description="CSUF Map, a Progressive Web Application is a game-changer, marking 100+ spots on campus with Leaflet’s slick mapping. Easy building searches, even offline. It’s all about giving CSUF a smooth, cool, and user-friendly map experience for everyone, from students to faculty to visitors—no fuss, just fun exploration!"
+              Technologies="React, Leaflet, Github Pages"
+              aim="Created for personal use"
+              ghLink="https://github.com/hbodgal/CSUF-Maps"
+              demoLink="https://hbodgal.github.io/CSUF-Maps/"
+            />
+          </Col> */}
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={word_analytics}
+              isBlog={false}
+              title="Word Analytics"
+              description="This app provides insights into text by counting words, characters and shows allowed limits for popular social media platforms. This app is created using React Vite and uses Prettier for code formatting."
+              Technologies="React, CSS, Prettier, Github Pages"
+              aim="Created for personal use"
+              ghLink="https://github.com/hbodgal/word-analytics/"
+              demoLink="https://hbodgal.github.io/word-analytics/"
+            />
+          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
