@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import streetsmart from "../../Assets/Projects/streetsmart.png";
 import titanbuddy from "../../Assets/Projects/titanbuddy.jpeg";
-import csufmap from "../../Assets/Projects/csufmap.png";
-import eventocity from "../../Assets/Projects/eventocity.png"
+// import csufmap from "../../Assets/Projects/csufmap.png";
+// import eventocity from "../../Assets/Projects/eventocity.png"
 import postathought from "../../Assets/Projects/postathought.png"
 import ticketingapp from "../../Assets/Projects/ticketingApp.png"
-import word_analytics from "../../Assets/Projects/Word_Analytics.png"
+// import word_analytics from "../../Assets/Projects/Word_Analytics.png"
 import taskbag from "../../Assets/Projects/Taskbag.png"
 import streamerpro from "../../Assets/Projects/streamerpro.png"
 function Projects() {
@@ -40,6 +40,7 @@ function Projects() {
               Technologies="Next.js, Tailwind CSS, Supabase, Google Cloud Platform, OAuth, Resend"
               aim="Build end-to-end app using web sockets, server-side events, and google authentication."
               ghLink="https://github.com/hbodgal/streamerpro"
+              demoLink="https://streamerpro.vercel.app/"
             />
           </Col>
 

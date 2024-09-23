@@ -604,3 +604,7 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.project-link {
+  text-decoration: none;
+}

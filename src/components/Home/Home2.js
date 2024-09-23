@@ -16,27 +16,29 @@ function Home2() {
             </h1> */}
             {/* <br /> */}
             {/* <br /> */}
-            <p className="home-about-body">
-              Hi! I am <b className="purple">Harsh</b>. Well, that's just my name! I am quite the opposite. Ironically, my name means <b className="purple">Happiness</b> in Sanskrit!<br /><br />
-              {/* Hi I am <b className="purple">Harsh</b>. That's just my name! Ironicolly my name means Hapiness in Sanskrit!<br /><br /> */}
-              I am a <b className="purple">Full Stack developer </b>, who
-              likes to craft solid and scalable products with great user
-              experience. I wield the power of{" "}
+                          {/* Well, that's just my name! I am quite the opposite. Ironically, my name means <b className="purple">Happiness</b> in Sanskrit!<br /><br /> */}
+            {/* Hi I am <b className="purple">Harsh</b>. That's just my name! Ironicolly my name means Hapiness in Sanskrit!<br /><br /> */}
+            {/* I wield the power of{" "}
               <b className="purple">
                 Typescript, Next.js, React.js, Express, Css, Git, Jest
               </b>{" "}
-              and more with ease.
+              and more with ease. */}
+            <p className="home-about-body">
+              Hi! I'm <span className="purple">Harsh</span>, a <span className="purple">Full Stack developer</span>, who
+              likes to craft scalable products that offers great user
+              experience. 
               <br />
-              <br />I approach my work with a relaxed and natural style, always
-              striving for excellence. I am passionate about{" "}
-              <b className="purple">solving ideas. </b>
-              I take pride in delivering simple (precise) solutions.
-              <br />
-             <br />I love being creative and adding that extra flair to every
-              task. It's such a great feeling when someone out there is using a
-              feature I put together, using my smarts and skills.  {/* Tech and
+              <br />I approach my work with a relaxed and natural style while always
+              striving for <span class="purple">excellence</span>.
+              I take pride in delivering simple (precise) solutions that solves real problems. I love being <span class="purple">creative</span> and adding that extra flair to every
+              task. <br />
+              <br />It's a great feeling when someone out there is using a
+              feature that I've put together, using my smarts and skills.  {/* Tech and
               coding just pull me in. */}
-              <br />
+               I find excitement in trying new things
+            and <span className="purple">pushing boundaries</span> and produce work that I can proudly show off.{" "}
+              <br /><br />
+              Thanks for stopping by! Be sure to check out my cool <a className="project-link" href="/projects"><span className="purple">projects</span></a>.
               {/* When I'm not coding, you can find me at the beach&nbsp;
               <i>
                 <b className="purple">or traveling thI love being creative and adding that extra flair to every task. It's such a great feeling when someone out there is using a feature I put together, using my smarts and skills. Let me boast a bit about my skills! Tech and coding just pull me in.
