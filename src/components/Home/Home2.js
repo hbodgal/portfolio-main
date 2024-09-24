@@ -24,13 +24,15 @@ function Home2() {
               </b>{" "}
               and more with ease. */}
             <p className="home-about-body">
-              Hi! I'm <span className="purple">Harsh</span>, a <span className="purple">Full Stack developer</span>, who
-              likes to craft scalable products that offers great user
+              Hi! I'm <span className="purple">Harsh</span>, a <span className="purple">Full Stack sofware developer</span>, who
+              likes to write code and craft scalable products that offers great user
               experience. 
               <br />
-              <br />I approach my work with a relaxed and natural style while always
+              <br />
+              {/* I approach my work with a relaxed and natural style while always
               striving for <span class="purple">excellence</span>.
-              I take pride in delivering simple (precise) solutions that solves real problems. I love being <span class="purple">creative</span> and adding that extra flair to every
+              I take pride in delivering simple (precise) solutions that solves real problems. */}
+              I love being <span class="purple">creative</span> and adding that extra flair to every
               task. <br />
               <br />It's a great feeling when someone out there is using a
               feature that I've put together, using my smarts and skills.  {/* Tech and
